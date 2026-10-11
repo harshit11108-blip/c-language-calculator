@@ -1,13 +1,9 @@
-
 #include <stdio.h>
-
 int main() {
     float a, b;
     char op;
-
     printf("Enter expression (e.g. 10 + 5): ");
     scanf("%f %c %f", &a, &op, &b);
-
     switch (op) {
         case '+':
             printf("Result = %.2f\n", a + b);
